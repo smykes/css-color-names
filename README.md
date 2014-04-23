@@ -14,14 +14,29 @@ console.dir(csscolors);
 yields
 
 ``` json
-{
-  "aqua": "#00ffff",
-  "aliceblue": "#f0f8ff",
-  "antiquewhite": "#faebd7",
-  "black": "#000000",
-  "blue": "#0000ff",
+[
+  {
+    "color": "black",
+    "hexCode": "#000000"
+  },
+  {
+    "color": "dimgray",
+    "hexCode": "#696969"
+  },
+  {
+    "color": "dimgrey",
+    "hexCode": "#696969"
+  },
+  {
+    "color": "gray",
+    "hexCode": "#808080"
+  },
+  {
+    "color": "grey",
+    "hexCode": "#808080"
+  }
   ...
-}
+]
 ```
 
 How was this list generated?
@@ -37,10 +52,6 @@ second command creates the JSON object and outputs
 it to stdout, which then gets redirected into
 `css-color-names.json`
 
-Installation
-------------
-
-    npm install css-color-names
 
 License
 -------
