@@ -12,6 +12,8 @@ console.dir(csscolors);
 ```
 
 yields
+[Gist of Results](https://gist.github.com/smykes/74edc286a7581101b93ev)
+
 
 ``` json
 [
